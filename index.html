@@ -70,12 +70,30 @@
 		</div>
 	</div>
 </body>
- <!-- JavaScript Greeting -->
- <script type="text/javascript">
-	window.onload = function() {
-		alert("Welcome to YoungJP - Elevate Your Game!" ChangesI`ve made are font styles, header color and everything else that was mentioned in the instructions);
-	};
-</script
->
+<h1 id="welcomeMessage">Welcome to Young JP!</h1>
+    <p id="welcomeText">We are excited to have you here. Explore and enjoy!</p>
+
+    <script>
+        // JavaScript to modify the welcoming message and styles dynamically
+
+        // Welcoming Message
+        const welcomeMessage = document.getElementById('welcomeMessage');
+        welcomeMessage.textContent = "Welcome to Young JP!";  // Change the text
+
+        // Font changes for heading and paragraph
+        welcomeMessage.style.fontFamily = "'Verdana', sans-serif";  // Change font of heading
+        welcomeMessage.style.color = "#4CAF50";  // Heading color (Green)
+
+        // Font changes for paragraph
+        const welcomeText = document.getElementById('welcomeText');
+        welcomeText.style.fontFamily = "'Courier New', monospace";  // Change font of paragraph
+        welcomeText.style.color = "#FF5733";  // Paragraph color (Orange-Red)
+
+        // Add a message in the welcoming text to explain the changes made
+        welcomeText.textContent = "Welcome to Young JP! I've made some changes to the design of the website: " +
+                                  "1. The fonts for the heading and paragraph have been updated. " +
+                                  "2. The background color and text colors have also been updated for a fresh look.";
+    </script>
+
 </body>
 </html>
