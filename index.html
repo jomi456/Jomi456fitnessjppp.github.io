@@ -75,11 +75,11 @@
 
     <script>
         // Alert welcoming message on page load
-        alert("Welcome to Young JP!");  // This will show a popup when the page loads
+        window.onload = function() {
+            alert("Welcome to Young JP!");  // This will show a popup when the page loads
+        };
 
         // JavaScript to modify the welcoming message and styles dynamically
-
-        // Welcoming Message
         const welcomeMessage = document.getElementById('welcomeMessage');
         welcomeMessage.textContent = "Welcome to Young JP!";  // Change the text
 
@@ -99,4 +99,3 @@
     </script>
 
 </body>
-</html>
