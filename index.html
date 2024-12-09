@@ -76,12 +76,12 @@
     <script>
         // Alert welcoming message on page load
         window.onload = function() {
-            alert("Welcome to Young JP!");  // This will show a popup when the page loads
+            alert("Welcome to Young JP! Here are some key differences between the two designs.");
         };
 
         // JavaScript to modify the welcoming message and styles dynamically
         const welcomeMessage = document.getElementById('welcomeMessage');
-        welcomeMessage.textContent = "Welcome to Young JP!";  // Change the text
+        welcomeMessage.textContent = "Welcome to Young JP!";  // Update the heading text
 
         // Font changes for heading and paragraph
         welcomeMessage.style.fontFamily = "'Verdana', sans-serif";  // Change font of heading
@@ -92,24 +92,24 @@
         welcomeText.style.fontFamily = "'Courier New', monospace";  // Change font of paragraph
         welcomeText.style.color = "#FF5733";  // Paragraph color (Orange-Red)
 
-        // Add a message in the welcoming text to explain the changes made
-        welcomeText.textContent = "Welcome to Young JP! I've made some changes to the design of the website: " +
-                                  "1. Title Text:
-
-First Website: "RUN THE STREETS OF QUEENS".
-Second Website: "LYFT UP ATHLETES".
-Menu Items:
-
-First Website: "HOME, ABOUT, RUNNING, BLOG, CONTACT".
-Second Website: "HOME, ABOUT, SUPPLEMENTS, CLOTHING".
-Styling:
-
-The second website uses a darker background for the header menu compared to the lighter background in the first.
-Font colors differ: brighter text in the second website ("LYFT UP ATHLETES") vs. darker bold text in the first.
-Buttons:
-
-First Website: "ENTER EMAIL" and "SIGN UP".
-Second Website: "ATHLETES" and "SIGN UP". " +
+        // Add a detailed explanation about the changes
+        welcomeText.textContent = "Welcome to Young JP! I've made some changes to the design of the website: \n\n" +
+                                  "1. Title Text:\n" +
+                                  "   - First Website: 'RUN THE STREETS OF QUEENS'.\n" +
+                                  "   - Second Website: 'LYFT UP ATHLETES'.\n\n" +
+                                  "2. Menu Items:\n" +
+                                  "   - First Website: 'HOME, ABOUT, RUNNING, BLOG, CONTACT'.\n" +
+                                  "   - Second Website: 'HOME, ABOUT, SUPPLEMENTS, CLOTHING'.\n\n" +
+                                  "3. Styling:\n" +
+                                  "   - The first website used a **white header background**, while the second used a **dark blue header background**.\n" +
+                                  "   - Font colors were updated: The first website used **black bold text** for the title, while the second used a **bright pink bold font**.\n\n" +
+                                  "4. Font Changes:\n" +
+                                  "   - The first website used a **sans-serif font**, while the second switched to a **modern bold serif-style font** for the title and menus.\n\n" +
+                                  "5. Buttons:\n" +
+                                  "   - First Website: 'ENTER EMAIL' and 'SIGN UP'.\n" +
+                                  "   - Second Website: 'ATHLETES' and 'SIGN UP'.\n\n" +
+                                  "6. Content Updates:\n" +
+                                  "   - The paragraphs across both pages were updated to introduce my **Young JP** brand, providing details about its mission, values, and focus. The 'About' section also emphasizes the essence of the brand and how it connects with the audience.";
     </script>
-
 </body>
+</html>
