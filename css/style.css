@@ -4,7 +4,7 @@ body {
     padding: 0;
     position: relative;
     width: auto;
-    font-family: 'Roboto', sans-serif; /* Change font to Roboto */
+    font-family: 'Roboto', sans-serif; /* Updated font to 'Roboto' */
 }
 
 body #page {
@@ -33,7 +33,7 @@ img {
     padding: 0;
     position: relative;
     width: 100%;
-    background-color: #1E2A3B; /* Dark blue background for the header */
+    background-color: #1E2A3B; /* Dark blue background */
 }
 
 #header div {
@@ -78,8 +78,8 @@ img {
 }
 
 #header div ul li a {
-    color: #F2F2F2; /* Lighter color for text */
-    font-family: 'Roboto', sans-serif; /* Change font to Roboto */
+    color: #F2F2F2; /* Lighter color */
+    font-family: 'Roboto', sans-serif; /* Updated font to 'Roboto' */
     font-size: 14px;
     font-weight: normal;
     line-height: 14px;
@@ -91,7 +91,7 @@ img {
 }
 
 #header div ul li.selected a, #header div ul li.selected a:hover {
-    color: #FF4081; /* Pink for selected items */
+    color: #FF4081; /* Pink color for selected items */
 }
 
 #header div ul li a:hover {
@@ -134,7 +134,7 @@ img {
 
 #body.home div.header div h1 {
     background: none;
-    color: #FF4081; /* Change header color to pink */
+    color: #FF4081; /* Pink color */
     display: block;
     font-family: 'Roboto', sans-serif;
     font-size: 110px;
@@ -157,7 +157,7 @@ img {
 }
 
 #body.home div.header div span a.email {
-    border: 5px solid #FF4081; /* Border pink for email button */
+    border: 5px solid #FF4081; /* Pink border for email button */
     color: #FF4081;
     display: block;
     float: left;
@@ -174,7 +174,7 @@ img {
 }
 
 #body.home div.header div span a.signup {
-    border: 5px solid #FF4081; /* Border pink for signup button */
+    border: 5px solid #FF4081; /* Pink border for signup button */
     border-left: none;
     color: #FF4081;
     display: block;
@@ -252,7 +252,7 @@ img {
 }
 
 #body.home div.body div p a:hover {
-    color: #FF4081; /* Pink hover color for links */
+    color: #FF4081; /* Pink color on hover for links */
 }
 
 #body.home div.body div a.more {
@@ -273,74 +273,7 @@ img {
 
 #body.home div.body div a.more:hover {
     background-color: #ffffff;
-    color: #FF4081; /* Change hover color for more link */
-}
-
-/*----------------------------------------body-styles---------------------------------------*/
-#body div {
-    background: url(../images/bg-transparent2.png) repeat;
-    margin: 0 auto;
-    max-width: 960px;
-    overflow: hidden;
-    padding: 58px 0 4px;
-}
-
-#body.running div {
-    padding: 58px 0 161px;
-}
-
-#body div h1 {
-    background: url(../images/bg-border2.gif) no-repeat center bottom;
-    color: #FF4081; /* Change header color to pink */
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    font-weight: normal;
-    line-height: 40px;
-    margin: 0;
-    padding: 0 0 20px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-#body div img {
-    display: block;
-    margin: 68px auto 47px;
-    padding: 0;
-    width: auto;
-}
-
-#body.runningsinglepost div img {
-    display: block;
-    margin: 68px auto 73px;
-    padding: 0;
-    width: auto;
-}
-
-#body.runningsinglepost div h3 {
-    padding: 17px 0 0;
-}
-
-#body.runningsinglepost div p {
-    color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    line-height: 33px;
-    margin: 0;
-    padding: 10px 0 18px;
-    text-align: center;
-}
-
-#body.runningsinglepost div p a {
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    text-decoration: underline;
-}
-
-#body.runningsinglepost div p a:hover {
-    color: #FF4081; /* Change hover color to pink */
+    color: #FF4081; /* Change hover color for "more" link */
 }
 
 /*----------------------------------------footer-styles---------------------------------------*/
@@ -360,7 +293,7 @@ img {
 }
 
 #footer div p {
-    color: #F2F2F2; /* Lighter text for footer */
+    color: #F2F2F2; /* Lighter color for footer text */
     float: left;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
@@ -379,26 +312,4 @@ img {
     height: 28px;
     margin: 0 7px;
     padding: 0;
-    text-indent: -99999px;
-    width: 28px;
-}
-
-#footer div .connect a:hover {
-    background-color: #FF4081; /* Hover color for social media icons */
-}
-
-#footer div p a {
-    color: #F2F2F2;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    font-weight: normal;
-    line-height: 15px;
-    margin: 0;
-    padding: 5px 0 0;
-    text-align: left;
-    width: auto;
-}
-
-#footer div p a:hover {
-    color: #FF4081; /* Pink hover color for footer links */
-}
+    text-indent: -99999
